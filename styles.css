@@ -1,0 +1,96 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    height: 343px;
+    background-image: url("images/Kolkata.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-title {
+    color: white;
+    font-weight: 700;
+    text-shadow: 0px 0px 5px #1D3557;
+}
+
+.hero-description {
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+    text-shadow: 0px 0px 5px #1D3557;
+    padding: 0 100px;
+}
+
+.activities-section {
+    background: #F1FAEE;
+    padding: 20px;
+}
+
+.activities, .places {
+    display: flex;
+}
+
+.activity, .place {
+    padding: 0 10px;
+}
+
+.activity-img, .place-img {
+    height: 100px;
+    border: 2px solid #A8DADC;
+    border-radius: 100px;
+}
+
+.activities-title, .places-title {
+    padding: 20px 0 20px 0;
+}
+
+.places-section {
+    background: #faf4ee;
+    padding: 20px;
+}
+
+.guide-section {
+    width: 400px;
+    padding: 20px 10px;
+    margin: 50px auto 50px auto;
+    box-shadow: 5px 5px 0 #1D3557;
+    border-radius: 10px;
+    background: #A8DADC;
+    display: flex;
+    align-items: center;
+    color: #1D3557;
+}
+
+.guide-section:hover {
+    background: #DCAAA8;
+}
+
+.guide-img {
+    width: 180px;
+    border-radius: 10px;
+    padding-right: 5px;
+}
+
+.guide-description {
+    font-style: italic;
+}
