@@ -19,7 +19,7 @@ img {
 }
 
 .hero {
-    height: 343px;
+    height: 450px;
     background-image: url("images/Kolkata.jpg");
     background-size: cover;
     display: flex;
@@ -30,37 +30,41 @@ img {
 .hero-title {
     color: white;
     font-weight: 700;
-    text-shadow: 0px 0px 5px #1D3557;
+    text-shadow: 0px 0px 5px #1d3557;
 }
 
 .hero-description {
     color: white;
     font-weight: 700;
     font-size: 19px;
-    text-shadow: 0px 0px 5px #1D3557;
+    text-shadow: 0px 0px 5px #1d3557;
     padding: 0 100px;
 }
 
 .activities-section {
-    background: #F1FAEE;
+    background: #f1faee;
     padding: 20px;
 }
 
-.activities, .places {
+.activities,
+.places {
     display: flex;
 }
 
-.activity, .place {
+.activity,
+.place {
     padding: 0 10px;
 }
 
-.activity-img, .place-img {
+.activity-img,
+.place-img {
     height: 100px;
-    border: 2px solid #A8DADC;
+    border: 2px solid #a8dadc;
     border-radius: 100px;
 }
 
-.activities-title, .places-title {
+.activities-title,
+.places-title {
     padding: 20px 0 20px 0;
 }
 
@@ -73,16 +77,16 @@ img {
     width: 400px;
     padding: 20px 10px;
     margin: 50px auto 50px auto;
-    box-shadow: 5px 5px 0 #1D3557;
+    box-shadow: 5px 5px 0 #1d3557;
     border-radius: 10px;
-    background: #A8DADC;
+    background: #a8dadc;
     display: flex;
     align-items: center;
-    color: #1D3557;
+    color: #1d3557;
 }
 
 .guide-section:hover {
-    background: #DCAAA8;
+    background: #dcaaa8;
 }
 
 .guide-img {
